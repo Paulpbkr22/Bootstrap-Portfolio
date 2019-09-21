@@ -1,0 +1,40 @@
+.button {
+    margin-right: 100px;
+}
+
+.card-body {
+    margin: 50px;
+    position: relative;
+}
+.card {
+    margin: 250px;
+    position: relative;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.text-block {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+
