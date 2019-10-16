@@ -2,6 +2,7 @@
     margin-right: 100px;
 }
 
+
 .card-body {
     margin: 50px;
     position: relative;
@@ -11,17 +12,38 @@
     position: relative;
 }
 
+a {
+    color: white;
+}
 .nav-link {
+    text-decoration: none;
+    color: white;
     cursor: pointer;
 }
 
+.card-grody {
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+.grody-button {
+    position: relative;
+
+}
+.name {
+    text-decoration: none;
+    color: orange;
+}
+
+
 .text-block {
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: rgb(98, 37, 133);
     color: white;
-    top: 60%; /* Adjust this value to move the positioned div up and down */
+    top: 70%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 100%; /* Set the width of the positioned div */
+    width: 200px; /* Set the width of the positioned div */
+    margin: -52px;
     z-index: 999;
 }
 
