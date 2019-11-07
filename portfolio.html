@@ -1,91 +1,153 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Assets/Images/">
+
+    <link rel="stylesheet" type="text/css" href="assets/images/">
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <title>BootStrap Portfolio</title>
 </head>
+
 <body>
 <!-- Creates Navbar and sets the border bottom -->
-<nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top" style="border-bottom: 2px solid rgb(117, 148, 33);">
+
+<nav id = "navbar" class="navbar navbar-expand-lg navbar-light sticky-top">
+
   <div class="container-fluid">
-    <h3 style="color: #ffffff; padding: 20px; margin-left: 80px;"> <a href="portfolio.html" class="name">Paul Baker</a></h3>
+
+    <h3 id = "name"> <a href="portfolio.html" id = "name">Paul Baker</a></h3>
 
     <!-- creates the navbar toggler displaying top right buttons  -->
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-right: 80px;">
+
       <ul class="navbar-nav ml-auto">
+
         <li class="nav-item active">
-          <a style = "color: white;" class="nav-link" href="index.html">About Me</a>
+
+          <a id = "navlink" class="nav-link" href="index.html">About Me</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+
+          <a id = "navlink" class="nav-link" href="portfolio.html">Portfolio</a>
         </li> 
+
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+
+            <a id = "navlink" class="nav-link" href="contact.html">Contact</a>
           </li>
+
         </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron jumbotron-fluid" style="height: 100%; background-image: url(Assets/Images/beanstalk.png); border-top: 2px solid rgb(117, 148, 33);">
+<div class="jumbotron jumbotron-fluid" style="background-image: url(assets/images/beanstalk.png); border-top: 2px solid rgb(41, 83, 197);">
+
   <div class="container" style="background: white;">
-      <h1 style="border-bottom: 2px solid rgb(117, 148, 33); padding: 20px;">Portfolio</h1>
+
+      <h1 style="border-bottom: 2px solid rgb(41, 83, 197); padding: 20px;">Portfolio</h1>
+
       <br>
+
       <div class="row text-center">
+
       <div class="col-sm-6 col-md-3" style="padding: 20px;">
+
             <!-- <div class="card" style="width: 18rem;"> -->
+
                     <div class="card-body">
+
                         <img src="Assets/Images/hangman.png" style="width: 200px; height: 200px;">
-                      <a href="https://paulpbkr22.github.io/Psychic-Game" class="text-block">Letter Guess</a>
+
+                      <a href="https://paulpbkr22.github.io/Psychic-Game" id = "block-link" class="text-block">Letter Guess</a>
+
                     <!-- </div> -->
+
                   </div>
       </div>
       <div class="col-sm-6 col-md-3"style="padding: 20px;">
+
             <!-- <div class="card" style="width: 18rem;"> -->
+
                     <div class="card-body">
-                        <img src="Assets/Images/spongebob.jpg" style="width: 200px; height: 200px;">
-                      <a href="https://paulpbkr22.github.io/Spongebob-RPG/" class="text-block">RPG Game</a>
+
+                        <img src="assets/images/spongebob.jpg" style="width: 200px; height: 200px;">
+
+                      <a href="https://paulpbkr22.github.io/Spongebob-RPG/" id = "block-link" class="text-block">RPG Game</a>
+
                     <!-- </div> -->
+
                   </div>
         </div>
     </div>
+
     <div class="row text-center">
+
             <div class="col-sm-6 col-md-3"style="padding: 20px;">
+
                     <!-- <div class="card" style="width: 18rem;"> -->
+
                             <div class="card-body">
-                                <img src="Assets/Images/chess.png" style="width: 200px; height: 200px;">
-                              <a href="https://www.chess.com/play/computer" class="text-block">Chess</a>
+
+                                <img src="assets/images/friends.jpg" style="width: 200px; height: 200px;">
+
+                              <a href="https://paulpbkr22.github.io/Friends-Trivia/" id = "block-link" class="text-block">Friends Trivia</a>
+
                             <!-- </div> -->
+
                           </div>
             </div>
             <div class="col-sm-6 col-md-3"style="padding: 20px;">
+
                     <!-- <div class="card" style="width: 18rem;"> -->
+
                             <div class="card-grody">
-                                <img src="Assets/Images/grody.png" style="width: 200px; height: 200px;">
+
+                                <img src="assets/images/grody.png" style="width: 200px; height: 200px;">
+
                               <button class = "btn btn-primary btn- grody-button">Grody</button>
+
                             <!-- </div> -->
+
                           </div>
               </div>
           </div>
     <div class="row text-center">
+
         <div class="col-sm-6 col-md-3"style="padding: 20px;">
+
             <!-- <div class="card"> -->
+
                 <div class="card-body">
-                        <img src="Assets/Images/rps.png"style="width: 200px; height: 200px;">
-                      <a href="#" class="text-block">Rock Paper Scissors</a>
+
+                        <img src="assets/images/giphy.jpg"style="width: 200px; height: 200px;">
+
+                      <a href="https://paulpbkr22.github.io/Giftastic/giftastic.html" id = "block-link" class="text-block">Giphy</a>
+
                     <!-- </div> -->
+
                     </div>
                   </div>
         </div>
@@ -94,8 +156,10 @@
 
   
   <!--Footer-->
-  <div class="fixed-bottom" style="border-top: 8px solid rgb(117, 148, 33); background-color: #666666">
+  <div class="fixed-bottom" style="border-top: 8px solid rgb(41, 83, 197); background-color: #666666">
+
       <h4 style="text-align: center; color:white">Copyright</h4>
+
   </div>
   
 
@@ -103,7 +167,7 @@
     
     $(document).ready(function() {
       var grodyAudio = document.createElement("audio");
-      grodyAudio.setAttribute("src", "Assets/CSS/Audio/grody.mp3");
+      grodyAudio.setAttribute("src", "assets/audio/grody.mp3");
 
       $(".grody-button").on("click", function() {
         grodyAudio.play();

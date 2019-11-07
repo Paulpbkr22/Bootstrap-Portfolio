@@ -1,7 +1,33 @@
+#nav {
+    border-bottom: solid 2px;
+    margin-left: 80px;
+}
+
+#title-head {
+    background-color: rgb(41, 83, 197); 
+    color: #ffffff; 
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.nav-item {
+    margin-right: 80px;
+}
+
+#contact {
+    border-bottom: 2px solid rgb(41, 83, 197); 
+    padding: 20px;
+}
+
+
 .button {
     margin-right: 100px;
 }
 
+#navbar {
+    background-color: gray;
+    border-bottom: 2px solid rgb(41, 83, 197);
+}
 
 .card-body {
     margin: 50px;
@@ -21,6 +47,14 @@ a {
     cursor: pointer;
 }
 
+#navlink {
+    color: white;
+}
+
+#block-link {
+    font-size: 21px;
+}
+
 .card-grody {
     position: relative;
     top: 200px;
@@ -30,9 +64,10 @@ a {
     position: relative;
 
 }
-.name {
+#name {
     text-decoration: none;
     color: orange;
+    padding: 20px;
 }
 
 
@@ -48,6 +83,8 @@ a {
 }
 
 
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -58,5 +95,3 @@ a {
 @media (max-width: 576px) {
 
 }
-
-
